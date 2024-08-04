@@ -1,0 +1,99 @@
+html, body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header{
+    text-align: center;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.banner-content{
+    background: linear-gradient(to bottom, transparent 10%, #0e99d430 50%, transparent 100%), center top url('../images/banner.png');
+    
+}
+header h1{
+    color: rgb(127, 40, 181);
+    font-size: 30px;
+}
+header p{
+    text-align: center;
+    font-size: 15px;
+}
+button{
+    margin: 20px;
+    padding: 20px 100px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solidrgb(127, 40, 181);
+    background:linear-gradient(#b1b1db rgb(127, 40, 181));
+}
+h2{
+    text-align: center;
+    color:rgb(127, 40, 181);
+}
+main p{
+    text-align: center;
+    font-size: 15px;
+}
+.modules-list{
+   margin: auto;
+   width: 40%;
+   flex-direction: column;
+}
+.module{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(127, 40, 181);
+    border-radius: 50px;
+    background: linear-gradient(#b1b1db rgb(127, 40, 181));
+}
+.module-1{
+    color:rgb(127, 40, 181);
+}
+.module-2{
+    color: rgb(127, 40, 181);
+}
+.module-3{
+    color:rgb(127, 40, 181);
+}
+#transform-world{
+    background-image: url('../Imagens/woman-code.png');
+    margin:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1000px;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.mundo{
+    text-align: left;
+    margin: 20px;
+    position: absolute;
+    font-size: xx-large;
+}
+#professional-challenges{
+    text-align: center;
+    margin-bottom: auto;
+}
+hr{
+    border-color:rgb(127, 40, 181);
+}
+footer{
+    text-align: center;
+    background: linear-gradient(to bottom, transparent 10%, #0e99d430 50%, transparent 100%), center top;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
